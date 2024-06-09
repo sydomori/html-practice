@@ -1,0 +1,212 @@
+.twitter-sidebar{
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: black;
+  width: 180px;
+  border-right: solid;
+  border-right-color: gray;
+  border-right-width:2px ;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: space-between;
+  overflow-y: scroll;
+  
+}
+.home-image{
+  height: 50px;
+  width: 50px;
+  color: white;
+}
+
+.home-div:hover,
+.twitter-logo-div:hover{
+  background-color: rgb(45, 45, 45); 
+}
+
+.home-div{
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  padding: 1px;
+  position: relative;
+  margin-right: 2px;
+  display: flex;
+  align-items: center;
+}
+.messages-div .tool-tip
+{
+  position: absolute;
+  background-color: gray;
+  color: white;
+  left: -60px;
+  bottom: -29px;
+  padding: 3px;
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 0.1s;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.accounts-div .tool-tip{
+  position: absolute;
+  background-color: gray;
+  color: white;
+  left: -40px;
+  bottom: -17px;
+  padding: 3px;
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 0.1s;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.notifications-div .tool-tip{
+  position: absolute;
+  background-color: gray;
+  color: white;
+  left: -70px;
+  bottom: -29px;
+  padding: 3px;
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 0.1s;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.home-div:hover .tool-tip,
+.notifications-div:hover .tool-tip,
+.accounts-div:hover .tool-tip{
+  opacity: 1;
+}
+.twitter-logo-div{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  padding: 1px;
+  margin-right: 1px;
+  
+
+}
+.twitter-logo{
+  width: 25px;
+  height: 25px;
+  
+}
+.search-icon,
+.messages-icon,
+.lists-icon,
+.profile-icon,
+.more-icon{
+  width: 25px;
+  height: 25px;
+}
+.search-div,
+.messages-div,
+.lists-div,
+.more-div,
+.profile-div,
+.accounts-div{
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  padding: 1px;
+  margin-right: 1px;
+  position: relative;
+}
+.search-div:hover,
+.messages-div:hover,
+.lists-div:hover,
+.profile-div:hover,
+.more-div:hover{
+  background-color: rgb(45, 45, 45);
+}
+.search-div .tool-tip,
+.lists-div .tool-tip,
+.more-div .tool-tip,
+.post-button .tool-tip,
+.home-div .tool-tip
+{
+  position: absolute;
+  color: white;
+  background-color: gray;
+  left: -20px;
+  bottom: -29px;
+  padding: 3px;
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 0.5s;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.profile-div .tool-tip{
+  position: absolute;
+  color: white;
+  background-color: gray;
+  left: -30px;
+  bottom: -29px;
+  padding: 3px;
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 0.5s;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.search-div:hover .tool-tip,
+.messages-div:hover .tool-tip,
+.lists-div:hover .tool-tip,
+.profile-div:hover .tool-tip,
+.more-div:hover .tool-tip,
+.post-button:hover .tool-tip,
+.accounts-div:hover .tool-tip{
+  opacity: 1;
+}
+
+.notifications-div{
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  padding: 1px;
+  margin-right: 1px;
+  position: relative;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.notifications-icon{
+  width: 25px;
+  height: 25px;
+}
+.notifications-div:hover{
+  background-color: rgb(45, 45, 45);
+}
+.post-button{
+  background-color:pink;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.post-icon{
+  width: 45px;
+  height: 45px;
+}
+.more-div .tool-tip,
+.post-button .tool-tip{
+  z-index: 200;
+}
+.account-icon{
+  border-radius: 15px;
+  height: 30px;
+  width: 30px;
+}

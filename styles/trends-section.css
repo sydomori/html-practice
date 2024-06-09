@@ -1,0 +1,381 @@
+.trends-section{
+  display: flexbox;
+  flex-shrink: 0;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; 
+}
+.twitter-searchbar{
+  height: 45px;
+  width: 270px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-color: rgb(30, 30, 30);
+  font-size: 17.5px;
+  border: none;
+  color: rgb(67, 65, 65);
+  padding-left: 10px;
+
+}
+.refresh-div{
+  display: flex;
+  justify-content: center;
+  border-bottom: solid;
+  border-bottom-color: gray;
+  border-bottom-width: 1px;
+  padding-top:10px;
+  padding-bottom: 10px;
+  
+}
+.refresh-paragraph{
+  color: rgb(0, 186, 124);
+}
+.refresh-div:hover{
+  background-color:rgb(30, 30, 30);
+  cursor: pointer;
+}
+
+.twitter-searchbar, .twitter-searchbar:focus{
+  border: 0;
+  outline: none;
+}
+
+.search-bar{
+  width: 300px;
+  height: 60px;
+  margin-left: 59px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-bar-icon{
+  width:30px ;
+  height: 25px;
+  color: rgb(30, 30, 30); 
+}
+.search-icon-div{
+  background-color: rgb(30, 30, 30);
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  width: 35px;
+  padding-left: 20px;
+  
+}
+.premium{
+  background-color:rgb(30, 30, 30);
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-left: 50px;
+  height: 130px;
+  border-radius: 15px;
+  align-items: start;
+  justify-content: center;
+  padding-left: 15px;
+  margin-top: 20px;
+  padding: 10px;
+
+ 
+}
+.subscribe-div-2,
+.subscribe-div-1{
+  width: 100%;
+  margin-bottom: 5px;
+}
+p{
+  color: rgb(215, 210, 210);
+  margin: 0;
+  margin-bottom: 5px;
+}
+.subscribe-button{
+  background-color: rgb(0, 186, 124);
+  border: none;
+  height: 40px;
+  width: 115px;
+  border-radius: 45px;
+  color: white;
+  font-weight: 600;
+  font-size: 17px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.subscribe-button:hover{
+  cursor: pointer;
+}
+.subscribe-paragraph{
+  font-weight: 700;
+  font-size: 17px;
+
+}
+.subscribe-paragraph-2{
+  font-weight: 400;
+  font-size: 17px;
+}
+.live-box{
+  background-color:rgb(30, 30, 30) ;
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  margin-left: 50px;
+  height: 130px;
+  border-radius: 15px;
+  justify-content: space-between;
+  margin-top: 20px;
+ 
+}
+.ntv-div{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+
+}
+.ntv-div-2{
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  padding-top: 15px;
+}
+.ntv-div:hover{
+  cursor: pointer;
+  background-color: rgb(48, 47, 47);
+}
+.ntv-logo{
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  margin-right: 5px;
+
+}
+.verified-icon{
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+.ntv-logo-2{
+  height: 30px;
+  width: 30px;
+  border-radius: 16px;
+  border: solid;
+  border-width: 2px;
+  border-color: red;
+}
+.ntv-div-3{
+  display: flex;
+  padding-left: 20px;
+  justify-content: space-between;
+  padding-right: 20px;
+  margin-bottom: 20px;
+}
+.ntv-div-4{
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.live-paragraph{
+  font-weight: 700;
+  font-size: 20px;
+}
+.ntv-live-paragraph,
+.ntv-paragraph-1{
+  font-weight: 700;
+
+}
+.hosting-paragraph{
+  font-weight: 100;
+}
+.trends-box{
+  background-color:rgb(30, 30, 30) ;
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  margin-left: 50px;
+  border-radius: 15px;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.trends-for-you-paragraph{
+  font-size: 20px;
+  font-weight:700;
+}
+.trending-div-2 p{
+  display: block;
+}
+.trends-p-3,
+.trends-p-1{
+  font-weight: 400;
+  color: gray;
+  font-size: 15px;
+}
+.trends-p-2{
+  font-weight: 700;
+  font-size: 18px;
+}
+.trends-div{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  display: flexbox;
+  align-items: start;
+}
+.trends-div:hover{
+  cursor: pointer;
+  background-color: rgb(48, 47, 47) ;
+}
+.trend-div{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+.show-more-div{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.show-more-paragraph{
+  color: rgb(0, 186, 124) ;
+}
+.show-more-div:hover{
+  cursor: pointer;
+  background-color: rgb(48, 47, 47) ;
+}
+.suggestions-div{
+  display: flex;
+  padding-left: 20px;
+  padding-right: 10px;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.suggestions-div:hover{
+  cursor: pointer;
+  background-color: rgb(48, 47, 47);
+}
+.who-to-follow-div{
+  padding-left: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.suggestions-name-div{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+.follow-box{
+  background-color:rgb(30, 30, 30) ;
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  margin-left: 50px;
+  border-radius: 15px;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.profile-image-1,
+.profile-image-2,
+.profile-image-3{
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+}
+.follow-button-div{
+  margin-left: 40px;
+}
+.follow-button{
+  width: 70px;
+  height: 40px;
+  border-radius: 35px;
+  border:none;
+  color: black;
+  background-color: white;
+  font-weight: 700;
+  font-size: 15px;
+}
+.who-to-follow-paragraph{
+  font-size: 20px;
+  font-weight: 700;
+}
+.tweet{
+  display: flex;
+  border-bottom: solid;
+  border-bottom-color:gray ;
+  border-bottom-width: 1px;
+  padding: 5px;
+
+}
+.tweet:hover{
+  background-color: rgb(48, 47, 47);
+  cursor: pointer;
+  
+}
+.comments-image{
+  width: 25px;
+  height: 25px;
+}
+.tweet-buttons-div{
+  display: flex;
+  justify-content: space-between;
+}
+.comments-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:none;
+  border: none;
+  
+}
+.bookmarks-div{
+  display: flex;
+}
+.profile-image-4{
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+.profile-div-2{
+  padding: 5px;
+  display: flex;
+  align-items: top;
+}
+.retweet-image{
+  width: 30px;
+  height: 30px;
+}
+.like-image{
+  width: 25px;
+  height: 25px;
+}
+.views-image{
+  width: 25px;
+  height: 25px;
+}
+.bookmarks-image{
+  width: 25px;
+  height: 25px;
+}
+.share-image{
+  width: 25px;
+  height: 25px;
+}
+.comments-number{
+  font-size: 15px;
+}
+.user-name-1{
+  font-weight: 700;
+}
+.user-name-2{
+  font-weight: 200;
+  color: rgb(120, 120, 120);
+}
+.main-tweet{
+  font-weight: 400;
+}
